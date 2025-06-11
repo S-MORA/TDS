@@ -37,7 +37,7 @@ const Hero2 = () => {
             loop 
             playsInline
           >
-            <source src="/images/backgrounds/clouds.mp4" type="video/mp4" />
+            <source src="/clouds.mp4" type="video/mp4" />
             Your browser does not support the video tag.
           </video>
 

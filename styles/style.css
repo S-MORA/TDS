@@ -4978,6 +4978,23 @@ input[type=search]::-webkit-search-results-decoration {
   overflow: hidden;
 }
 
+
+.video-bg-wrapper {
+  position: relative;
+  min-height: 100vh;
+  width: 100%;
+  overflow: hidden;
+}
+
+.global-background-video {
+  position: fixed;
+  top: 0; left: 0;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  z-index: -1;
+  pointer-events: none;
+}
 /* Hero Background Video */
 .hero-background-video {
   position: absolute;

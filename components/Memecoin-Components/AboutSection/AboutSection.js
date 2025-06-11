@@ -104,9 +104,7 @@ const AboutSection = () => {
                     </div>
                     <div className="col-lg-6 text-lg-center">
                         <div ref={tiktokRef} />
-                        <div className="image_block" data-aos="fade-up" data-aos-duration="800" data-aos-delay="100">
-                            <Image src={aboutMemecoin2Image} alt="Dapper Shrimp" />
-                        </div>
+
                     </div>
                 </div>
                 {/* Instagram Carousel Row */}
