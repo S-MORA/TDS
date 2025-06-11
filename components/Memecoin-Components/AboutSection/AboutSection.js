@@ -34,7 +34,15 @@ const AboutSection = () => {
             `<blockquote class='instagram-media' data-instgrm-permalink='https://www.instagram.com/p/C_YAmohRt53/?utm_source=ig_embed&amp;utm_campaign=loading' data-instgrm-version='14' style='background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);'></blockquote>`,
             `<blockquote class='instagram-media' data-instgrm-permalink='https://www.instagram.com/p/C9SyUc3x1D5/?utm_source=ig_embed&amp;utm_campaign=loading' data-instgrm-version='14' style='background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);'></blockquote>`,
             `<blockquote class='instagram-media' data-instgrm-permalink='https://www.instagram.com/reel/Cp3UImtrLiR/?utm_source=ig_embed&amp;utm_campaign=loading' data-instgrm-version='14' style='background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);'></blockquote>`,
-            `<blockquote class='instagram-media' data-instgrm-permalink='https://www.instagram.com/p/C9SyUc3x1D5/?utm_source=ig_embed&amp;utm_campaign=loading' data-instgrm-version='14' style='background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);'></blockquote>`
+            `<blockquote class='instagram-media' data-instgrm-permalink='https://www.instagram.com/reel/DHE66RLRGeO/?utm_source=ig_embed&amp;utm_campaign=loading' data-instgrm-version='14' style='background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);'></blockquote>`,
+            `<blockquote class='instagram-media' data-instgrm-permalink='https://www.instagram.com/reel/DGMXt8nR7uk/?utm_source=ig_embed&amp;utm_campaign=loading' data-instgrm-version='14' style='background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);'></blockquote>`,
+            `<blockquote class='instagram-media' data-instgrm-permalink='https://www.instagram.com/reel/DFTi7V3R94r/?utm_source=ig_embed&amp;utm_campaign=loading' data-instgrm-version='14' style='background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);'></blockquote>`,
+            `<blockquote class='instagram-media' data-instgrm-permalink='https://www.instagram.com/reel/DFyQrAOxBA8/?utm_source=ig_embed&amp;utm_campaign=loading' data-instgrm-version='14' style='background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);'></blockquote>`,
+            `<blockquote class='instagram-media' data-instgrm-permalink='https://www.instagram.com/reel/DElWqdSxekX/?utm_source=ig_embed&amp;utm_campaign=loading' data-instgrm-version='14' style='background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);'></blockquote>`,
+            `<blockquote class='instagram-media' data-instgrm-permalink='https://www.instagram.com/reel/DCjFwqgNA1h/?utm_source=ig_embed&amp;utm_campaign=loading' data-instgrm-version='14' style='background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);'></blockquote>`,
+            `<blockquote class='instagram-media' data-instgrm-permalink='https://www.instagram.com/reel/DAboAwqRUYR/?utm_source=ig_embed&amp;utm_campaign=loading' data-instgrm-version='14' style='background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);'></blockquote>`,
+            `<blockquote class='instagram-media' data-instgrm-permalink='https://www.instagram.com/reel/DAUSmCgRmng/?utm_source=ig_embed&amp;utm_campaign=loading' data-instgrm-version='14' style='background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);'></blockquote>`,
+           `<blockquote class='instagram-media' data-instgrm-permalink='https://www.instagram.com/reel/D9_00000000/?utm_source=ig_embed&amp;utm_campaign=loading' data-instgrm-version='14' style='background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);'></blockquote>`,
         ];
 
         igPosts.forEach((post, i) => {
@@ -59,7 +67,12 @@ const AboutSection = () => {
             "7190926798341950763",
             "7199083928412736814",
             "7511866771004001578",
-            "7511497483718233390"
+            "7511497483718233390",
+            "7406093620966591787",
+            "7201181005179407659",
+            "7219359477093403950",
+            "7280670456137518378",
+
             // Add more TikTok video IDs as needed
         ];
 
@@ -137,10 +150,17 @@ const AboutSection = () => {
                             <div style={{ minWidth: 340, maxWidth: 540 }}>
                                 <div id="ig-embed-5" />
                             </div>
+                            <div style={{ minWidth: 340, maxWidth: 540 }}>
+                                <div id="ig-embed-6" />
+                            </div>
+                            <div style={{ minWidth: 340, maxWidth: 540 }}>
+                                <div id="ig-embed-7" />
+                            </div>
+                            <div style={{ minWidth: 340, maxWidth: 540 }}>
+                                <div id="ig-embed-8" />
+                            </div>
                         </div>
-                        {/* Faded edges for scroll indication */}
-                        <div className="carousel-fade left"></div>
-                        <div className="carousel-fade right"></div>
+
                     </div>
                 </div>
                 {/* TikTok Carousel Row */}
@@ -169,6 +189,21 @@ const AboutSection = () => {
                             </div>
                             <div>
                                 <div id="tiktok-embed-4" />
+                            </div>
+                            <div>
+                                <div id="tiktok-embed-5" />
+                            </div>
+                            <div>
+                                <div id="tiktok-embed-6" />
+                            </div>
+                            <div>
+                                <div id="tiktok-embed-7" />
+                            </div>
+                            <div>
+                                <div id="tiktok-embed-8" />
+                            </div>
+                            <div>
+                                <div id="tiktok-embed-9" />
                             </div>
                             {/* Add more as needed, matching tiktokVideos array */}
                         </div>

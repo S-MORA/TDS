@@ -57,7 +57,8 @@ const HomePage = () => {
 
     return (
         <Fragment>
-            <div className='index_memecoin page_wrapper'>
+           <div className='index_memecoin page_wrapper'>
+   
                 <Header2 />
                 <main className="page_content">
                     <Hero2 />
