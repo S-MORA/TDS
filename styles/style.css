@@ -4704,7 +4704,7 @@ input[type=search]::-webkit-search-results-decoration {
 .meme_site_footer .cartoon_shape_2 {
   top: 55%;
   left: 40px;
-  max-width: 106px;
+  max-width: 256px;
 }
 
 .meme_site_footer .cartoon_shape_2 img {
@@ -4713,7 +4713,7 @@ input[type=search]::-webkit-search-results-decoration {
 }
 
 .meme_site_footer .cartoon_shape_3 {
-  top: 58%;
+  top: 50%;
   right: 40px;
 }
 
@@ -5040,7 +5040,6 @@ input[type=search]::-webkit-search-results-decoration {
 
 .memecoin_hero_section [class*=shape_cartoon_] {
   top: 50%;
-  max-width: 280px;
   -webkit-transform: translateY(-50%);
   transform: translateY(-50%);
 }
@@ -7617,7 +7616,6 @@ Responsive For Mobile & Tablet Devices
   }
 
   .memecoin_hero_section [class*=shape_cartoon_] {
-    max-width: 150px;
   }
 
   .memecoin_hero_section .shape_cartoon_1 {

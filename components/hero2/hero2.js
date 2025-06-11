@@ -94,10 +94,10 @@ const Hero2 = () => {
           </div>
 
           <div className="decoration_item shape_cartoon_1" style={{ zIndex: 3 }}>
-            <Image src={shape5} alt="Shape Cartoon" width={450}  />
+            <Image src={shape5} alt="Shape Cartoon" width={280}  />
           </div>
           <div className="decoration_item shape_cartoon_2" style={{ zIndex: 3 }}>
-            <Image src={shape6} alt="Shape Cartoon" width={450}  />
+            <Image src={shape6} alt="Shape Cartoon" width={320}  />
           </div>
         </section>
     )

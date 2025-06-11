@@ -41,13 +41,13 @@ const Footer = () => {
 
       </div>
       <div className="decoration_item cartoon_shape_1">
-        <Image src={shapeCartoon1} alt="Cartoon" />
+        <Image src={shapeCartoon1} alt="Cartoon" width={400} />
       </div>
       <div className="decoration_item cartoon_shape_2">
         <Image src={shapeCartoon2} alt="Cartoon" />
       </div>
       <div className="decoration_item cartoon_shape_3">
-        <Image src={shapeCartoon3} alt="Cartoon" />
+        <Image src={shapeCartoon3} alt="Cartoon" width={300} />
       </div>
     </footer>
   );
