@@ -1,0 +1,79 @@
+.instagram-carousel,
+.tiktok-carousel {
+    display: flex;
+    gap: 32px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    scroll-behavior: smooth;
+    padding: 16px 0;
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none; /* IE 10+ */
+    position: relative;
+}
+
+.instagram-carousel::-webkit-scrollbar,
+.tiktok-carousel::-webkit-scrollbar {
+    display: none; /* Hide scrollbars in WebKit browsers */
+}
+
+.carousel-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(255, 255, 255, 0.8);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    z-index: 2;
+    transition: background 0.3s;
+}
+
+.carousel-arrow:hover {
+    background: rgba(255, 255, 255, 1);
+}
+
+.carousel-arrow i {
+    font-size: 24px; /* Adjust icon size as needed */
+    color: rgba(0, 0, 0, 0.6); /* Adjust icon color */
+}
+
+.carousel-arrow:hover i {
+    color: rgba(0, 0, 0, 0.9);
+}
+
+.left-arrow {
+    left: 10px;
+}
+
+.right-arrow {
+    right: 10px;
+}
+
+.carousel-fade {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 50px;
+    pointer-events: none;
+    z-index: 1;
+}
+
+.carousel-fade.left {
+    left: 0;
+    background: linear-gradient(to right, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0));
+}
+
+.carousel-fade.right {
+    right: 0;
+    background: linear-gradient(to left, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0));
+}
+
+/* Ensure the carousel items have position relative */
+.instagram-carousel > div,
+.tiktok-carousel > div {
+    position: relative;
+} 
