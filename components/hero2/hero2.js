@@ -30,25 +30,37 @@ const Hero2 = () => {
         <section className="memecoin_hero_section section_decoration text-center" style={{ backgroundImage: `url('/images/backgrounds/shrimp_meme_bg.png')` }}>
           {/* Overlay Div */}
           <div className="hero-overlay">
-            <div className="container" >
+            <div className="container" style={{ position: 'relative', zIndex: 3 }}>
               <div className="row justify-content-center">
                 <div className="col-lg-8">
-                  <h1 className="hero_title text-uppercase" data-aos="fade-up" data-aos-duration="800">
+                  <h1
+                    className="hero_title text-uppercase"
+                    data-aos="fade-up"
+                    data-aos-duration="800"
+                    style={{ position: 'relative', zIndex: 3 }}
+                  >
                     THE DAPPER 
 
                     <mark>SHRIMP</mark>
                   </h1>
-                  <p className="hero_description" data-aos="fade-up" data-aos-duration="800" data-aos-delay="100"  style={{ zIndex: 3 }}>
-                   Every decision  you made in life led you to seeing this shrimp.
+                  <p
+                    className="hero_description"
+                    data-aos="fade-up"
+                    data-aos-duration="800"
+                    data-aos-delay="100"
+                    style={{ position: 'relative', zIndex: 3, color: 'black', fontWeight: 700 }}
+                  >
+                   Every decision you made in life led you to seeing this shrimp.
                   </p>
                     {/* Contract Address Text */}
                     <p
                       className="contract-address"
                       onClick={copyToClipboard}
                       title="Click to copy"
+                      style={{ position: 'relative', zIndex: 3, color: 'white' }}
                     >
-                      {copySuccess ? copySuccess : contractAddress}
                       <span className="copy-tooltip">Click to copy</span>
+                      {copySuccess ? copySuccess : contractAddress}
                     </p>
 
                     {/* Buttons Group */}
@@ -82,10 +94,10 @@ const Hero2 = () => {
           </div>
 
           <div className="decoration_item shape_cartoon_1" style={{ zIndex: 3 }}>
-            <Image src={shape5} alt="Shape Cartoon" width={180} height={180} />
+            <Image src={shape5} alt="Shape Cartoon" width={450}  />
           </div>
           <div className="decoration_item shape_cartoon_2" style={{ zIndex: 3 }}>
-            <Image src={shape6} alt="Shape Cartoon" width={180} height={180} />
+            <Image src={shape6} alt="Shape Cartoon" width={450}  />
           </div>
         </section>
     )

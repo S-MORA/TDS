@@ -230,6 +230,7 @@ body,
 .copy-tooltip {
   display: none;
   position: absolute;
+  bottom: 100%;
   left: 50%;
   bottom: -2.2em;
   transform: translateX(-50%);
