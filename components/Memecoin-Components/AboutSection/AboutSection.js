@@ -98,13 +98,13 @@ const AboutSection = () => {
                             Welcome to cursed elegance in crustacean form. Comment "F" to pay respects.
                             </p>
                         </div>
-                        <div className="image_block" data-aos="fade-up" data-aos-duration="800" data-aos-delay="100">
-                            <Image src={aboutMemecoinImage} alt="Dapper Shrimp" />
-                        </div>
+
                     </div>
                     <div className="col-lg-6 text-lg-center">
                         <div ref={tiktokRef} />
-
+                        <div className="image_block" data-aos="fade-up" data-aos-duration="800" data-aos-delay="100">
+                            <Image src={aboutMemecoinImage} alt="Dapper Shrimp" />
+                        </div>
                     </div>
                 </div>
                 {/* Instagram Carousel Row */}
