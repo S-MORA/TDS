@@ -1,11 +1,12 @@
 import React, { useState } from 'react';
 import Link from 'next/link'
 import AnchorLink from 'react-anchor-link-smooth-scroll'
-import shape from '/public/images/shapes/shape_bored.gif'
+
 import shape2 from '/public/images/shapes/shape_circle_zigzag.svg'
 
 import shape5 from '/public/images/shapes/shape_cartoon_1_shrimp.gif'
 import shape6 from '/public/images/shapes/shape_cartoon_2_shrimp.gif'
+import shrimpAngel from '/public/images/backgrounds/shrimp_angel_no_bg.png'
 import Image from 'next/image';
 
 
@@ -27,7 +28,19 @@ const Hero2 = () => {
   };
 
     return (
-        <section className="memecoin_hero_section section_decoration text-center" style={{ backgroundImage: `url('/images/backgrounds/shrimp_meme_bg.png')` }}>
+        <section className="memecoin_hero_section section_decoration text-center">
+          {/* Background Video */}
+          <video 
+            className="hero-background-video"
+            autoPlay 
+            muted 
+            loop 
+            playsInline
+          >
+            <source src="/images/backgrounds/clouds.mp4" type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
+
           {/* Overlay Div */}
           <div className="hero-overlay">
             <div className="container" style={{ position: 'relative', zIndex: 3 }}>
@@ -94,10 +107,21 @@ const Hero2 = () => {
           </div>
 
           <div className="decoration_item shape_cartoon_1" style={{ zIndex: 3 }}>
-            <Image src={shape5} alt="Shape Cartoon" width={280}  />
+            <Image src={shape5} alt="Shape Cartoon" width={250}  />
           </div>
           <div className="decoration_item shape_cartoon_2" style={{ zIndex: 3 }}>
-            <Image src={shape6} alt="Shape Cartoon" width={320}  />
+            <Image src={shape6} alt="Shape Cartoon" width={300}  />
+          </div>
+
+          {/* Floating Angel Shrimp */}
+          <div className="floating-shrimp-angel" style={{ zIndex: 2 }}>
+            <Image 
+              src={shrimpAngel} 
+              alt="Angel Shrimp" 
+              width={350} 
+              height={350}
+              style={{ opacity: 0.93 }}
+            />
           </div>
         </section>
     )
