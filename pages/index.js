@@ -24,7 +24,7 @@ const HomePage = () => {
                 alignItems: 'center',
                 justifyContent: 'center',
                 height: '100vh',
-                background: '#FFFFFF',
+                background: 'transparent',
                 zIndex: 9999,
                 position: 'fixed',
                 top: 0,
