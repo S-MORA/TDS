@@ -22,6 +22,43 @@ function MyApp({ Component, pageProps }) {
       <Head>
         <title>Dapper Shrimp</title>
       </Head>
+      {/* Global Background Video & Overlay */}
+      <video
+        className="global-background-video"
+        autoPlay
+        muted
+        loop
+        playsInline
+      >
+        <source src="/clouds.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+      <div className="global-video-overlay" />
+
+      {/* Global styles for video backdrop */}
+      <style jsx global>{`
+        .global-background-video {
+          position: fixed;
+          top: 0;
+          left: 0;
+          width: 100vw;
+          height: 100vh;
+          object-fit: cover;
+          z-index: -2;
+          pointer-events: none;
+        }
+        .global-video-overlay {
+          position: fixed;
+          top: 0;
+          left: 0;
+          width: 100vw;
+          height: 100vh;
+          background: rgba(0, 0, 0, 0.5);
+          z-index: -1;
+          pointer-events: none;
+        }
+      `}</style>
+
       <GlobalAOSProvider>
         <Component {...pageProps} />
         <ToastContainer />

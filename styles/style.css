@@ -4992,7 +4992,7 @@ input[type=search]::-webkit-search-results-decoration {
   width: 100vw;
   height: 100vh;
   object-fit: cover;
-  z-index: -1;
+  z-index: -2;
   pointer-events: none;
 }
 /* Hero Background Video */
@@ -7019,8 +7019,9 @@ input[type=search]::-webkit-search-results-decoration {
 .index_memecoin {
   --bs-body-font-family: "Bricolage Grotesque", serif;
   --bs-heading-font-family: "Dela Gothic One", serif;
-  --bs-body-bg: #B9CDEB;
-  --bs-body-bg-rgb: 185, 205, 235;
+  --bs-body-bg: transparent;
+  --bs-body-bg-rgb: 0, 0, 0;
+  background-color: transparent !important;
   --bs-body-color: #1B1B1B;
   --bs-body-color-rgb: 27, 27, 27;
   --bs-heading-color: #ffffff;

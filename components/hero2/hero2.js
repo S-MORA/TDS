@@ -29,18 +29,6 @@ const Hero2 = () => {
 
     return (
         <section className="memecoin_hero_section section_decoration text-center">
-          {/* Background Video */}
-          <video 
-            className="hero-background-video"
-            autoPlay 
-            muted 
-            loop 
-            playsInline
-          >
-            <source src="/clouds.mp4" type="video/mp4" />
-            Your browser does not support the video tag.
-          </video>
-
           {/* Overlay Div */}
           <div className="hero-overlay">
             <div className="container" style={{ position: 'relative', zIndex: 3 }}>

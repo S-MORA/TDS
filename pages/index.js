@@ -24,7 +24,7 @@ const HomePage = () => {
                 alignItems: 'center',
                 justifyContent: 'center',
                 height: '100vh',
-                background: '#B9CDEB',
+                background: '#FFFFFF',
                 zIndex: 9999,
                 position: 'fixed',
                 top: 0,
@@ -44,7 +44,7 @@ const HomePage = () => {
                     height: '60px',
                     animation: 'spin 1s linear infinite',
                 }}></div>
-                <Image src={preloaderShrimp} alt="Loading..." layout="fill" objectFit="cover" />
+                <Image src={preloaderShrimp} alt="Loading..." layout="fill" objectFit="contain" />
                 <style jsx>{`
                     @keyframes spin {
                         0% { transform: rotate(0deg); }

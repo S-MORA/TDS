@@ -211,9 +211,6 @@ const AboutSection = () => {
                     </div>
                 </div>
             </div>
-            <div className="decoration_item shape_net_top">
-                <Image src={shapeNetImage} alt="Shape Net" />
-            </div>
         </section>
     );
 };
