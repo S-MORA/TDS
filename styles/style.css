@@ -4563,6 +4563,26 @@ input[type=search]::-webkit-search-results-decoration {
 }
 
 @media screen and (max-width: 575px) {
+
+  /* Smaller header logo */
+  .site_logo img {
+    width: 72px !important;
+    height: 72px !important;
+  }
+
+  /* Smaller contract address pill */
+  .contract-address {
+    font-size: 1.2rem;
+    padding: 0.4em 0.9em;
+  }
+
+  /* Footer decorative images */
+  .meme_site_footer .cartoon_shape_2 img,
+  .meme_site_footer .cartoon_shape_3 img {
+    width: 80%;
+    max-width: 800px;
+  }
+  
   .header_memecoin .memecoin_btn {
     font-size: 14px;
     padding: 10px 24px;
@@ -5029,7 +5049,7 @@ input[type=search]::-webkit-search-results-decoration {
   top: 20%;
   left: 10%;
   pointer-events: none;
-  animation: floatAroundHero 45s ease-in-out infinite;
+  animation: floatAroundHero 36s linear infinite; /* 20% faster & constant speed */
   transform-origin: center;
 }
 
@@ -5091,7 +5111,8 @@ input[type=search]::-webkit-search-results-decoration {
 /* Responsive adjustments for floating shrimp */
 @media (max-width: 1199px) {
   .floating-shrimp-angel {
-    display: none; /* Hide on smaller screens to avoid overlap issues */
+    display: block; /* keep visible */
+    transform: scale(0.5); /* shrink slightly on small screens */
   }
 }
 
@@ -8392,11 +8413,9 @@ Responsive For Mobile & Tablet Devices
   }
 }
 
-/* Media Screen 1024px - End
+/* Media Screen 1024px - Start
 ================================================== */
-/* Media Screen 991px - Start
-================================================== */
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .container {
     max-width: 730px;
   }
@@ -8755,7 +8774,7 @@ Responsive For Mobile & Tablet Devices
   }
 
   .memecoin_hero_section .hero_title {
-    font-size: 60px;
+    font-size: 50px;
     line-height: 66px;
   }
 
@@ -8951,7 +8970,7 @@ Responsive For Mobile & Tablet Devices
   }
 
   .memecoin_hero_section .hero_title {
-    font-size: 48px;
+    font-size: 36px;
     line-height: 58px;
   }
 
@@ -9166,8 +9185,6 @@ Responsive For Mobile & Tablet Devices
   }
 }
 
-/* Media Screen 575px - End
-================================================== */
 /* Media Screen 425px - Start
 ================================================== */
 @media (max-width: 425px) {
@@ -9239,7 +9256,7 @@ Responsive For Mobile & Tablet Devices
   }
 
   .memecoin_hero_section .hero_title {
-    font-size: 42px;
+    font-size: 36px;
     line-height: 48px;
   }
 

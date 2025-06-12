@@ -106,7 +106,7 @@ const AboutSection = () => {
                             <h2 className="heading_text text-uppercase">
                                 Shrimply the best investment
                             </h2>
-                            <p className="heading_description mb-0 pe-lg-5">
+                            <p className="heading_description mb-0 pe-lg-5" style={{ color: 'black', fontWeight: 700 }}>
                             He craves full flavor. He respects the drip. He will not be rushed.
                             Welcome to cursed elegance in crustacean form. Comment "F" to pay respects.
                             </p>

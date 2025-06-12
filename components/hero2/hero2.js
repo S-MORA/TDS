@@ -108,7 +108,7 @@ const Hero2 = () => {
               alt="Angel Shrimp" 
               width={350} 
               height={350}
-              style={{ opacity: 0.93 }}
+              style={{ opacity: 0.95 }}
             />
           </div>
         </section>
